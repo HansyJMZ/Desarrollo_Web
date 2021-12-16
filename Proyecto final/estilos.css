@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2? family=Outfit:wght@300&display=swap');
+
+
+
+body{
+    background-color:#E55958;    
+    padding-top: 15em;
+    font-family: 'Outfit', sans-serif;
+	 
+    }
+    
+
+/*Navegacion*/
+
+.navegacion-principal {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+
+    
+  }
+  
+  .navegacion-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:center;
+    position: center;
+    top: 40em;
+    font-family: 'Outfit', sans-serif;
+
+    
+    animation: BGcolorChanging-6colors 10s linear infinite alternate both;
+}
+
+@keyframes BGcolorChanging-6colors {
+       0% {
+           background: #ead519;
+       }
+       20% {
+           background: #cc85f5;
+       }
+       40% {
+           background: #db0267;
+       }
+       60% {
+           background: #f5be10;
+       }
+       80% {
+           background: #ce5d11;
+       }
+       100% {
+           background: #a802a0;
+       }
+    
+  }
+  
+  .navegacion-principal li {
+    display: inline;
+    float: left;
+  }
+  
+  .navegacion-principal a {
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+
+  .navegacion-principal a:hover {
+    background-color: #1776C6;
+  }
+  
+  .navegacion-logo {
+    height: 256px;
+    width: 256px;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+    align-items: flex-end;
+    margin-left: 40%;
+    border-radius: 50%;
+    padding-top:-30%;
+    position: relative;
+    border-color:seashell;
+    margin-top:-100%;
+    
+    
+  }
+  
+  .active {
+    background-color: #b16307;
+    color: white !important;
+  }
+  
+  
+  /* General */
+  .sin-margen {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .float-rigth{
+      float: right;
+  }
+  
+  
+  footer {
+    background-color:none;
+    color: white;
+    padding: 6em;
+  }
+  
+  .centrado {
+    text-align: center;
+    top:20%;
+  }
+  
+
+  
+  /* Galería */
+  .galeria {
+    list-style-type: none;
+  }
+  
+  .galeria li {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .obra {
+    margin: 1.5em;
+    width: 250px;
+  }
+  
+  .galeria img {
+    width: 250px;
+    border-radius: 20px;
+    color:white;
+    border: 3px solid;
+  }
+  
+  .titulo-producto {
+    color: #7508b6;
+    font-weight: bold;
+    font-size: large;
+    margin: 15px 0;
+  }
+  
+  .descripcion-producto {
+    text-align: justify;
+  }
+  
+  .producto-mes {
+    background-color: #b16307;
+    color: white;
+    padding: 25px 0;
+  }
+  .producto-mes h1 {
+    font-weight: lighter;
+  }
+  
+  /*Redes*/
+
+  .sociales {
+    list-style-type: none;
+    margin-left: 55em;
+    margin-top: 1em;
+  }
+  
+  .sociales li {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .redes-sociales {
+    margin: 0.5em;
+    width: 50px;
+    height: 10px;
+
+  }
+  
+  .sociales img {
+    width: 30px;
+  }
+  .sociales img:hover{
+    width: auto;
+    
+  }
+  .P{
+    text-align: left;
+    font-size: 50px;
+    font-family: sans-serif;
+    
+
+    text-align:center;
+    font-size:4em;
+    color:#fff;
+    letter-spacing: 7px;
+    font-weight:700;
+    text-transform:uppercase;
+    animation:blur 2s ease-out infinite;
+    text-shadow:0px 0px 5px #fff,
+        0px 0px 7px #ff0000;
+  }
+  
+  @keyframes blur{
+    from{
+        text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 30px #ff0099,
+        0px 0px 70px #ff0099,
+        0px 0px 30px #ff0099,
+        0px 0px 30px #ff0099,
+        0px 0px 30px #ff0099,
+        0px 0px 30px #ff0099,
+        0px -10px 30px #ff0099,
+        0px -10px 30px #ff0099;
+      }
+  }
+    
+/*Contratame*/
+
+.titulo-formulario {
+  font-size: 48px;
+  font-weight: lighter;
+  color: #3e686f;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: large;
+}
+.boton-submit {
+  min-width: 300px;
+  background-color: #1776C6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-comprar {
+  width: 90%;
+  background-color: #7508b6;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+
+.boton-registro {
+  color: #7508b6;
+  border-color: #7508b6;
+  border-style: solid;
+  border-width: 1px;
+  padding: 14px 20px;
+  width: 300px;
+  margin: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-cancelar {
+  color: #b60808;
+  border-color: #b60808;
+  border-style: solid;
+  border-width: 1px;
+  padding: 14px 20px;
+  width: 300px;
+  margin: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  display: inline-block;
+}
+
+.boton-submit:hover, .boton-comprar:hover {
+  background-color: #FCC956;
+}
+
+.contenedor-formulario {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 30px;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.campos-formulario {
+  margin: 0 20px;
+}
+
+label {
+  float: left;
+}
+
+  .mensaje{
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px 30px;
+  position: relative;
+  top: 25%;
+  border: none;
+  
+ 
+}
+.pie_de_foto{
+  color:#FCC956
+  
+}
+
+.enlace1{
+  background-color: #ead519;
+  display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none
+    
+    
+}
+.navegacion-principal1{
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  display: block;
+    
+}

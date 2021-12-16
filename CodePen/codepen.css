@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boo {
+  width: 50%;
+}
+
+#body {
+  stroke-dashoffset: 17972.59765625;
+  stroke-dasharray: 17972.59765625 17972.59765625;
+  fill: transparent;
+  stroke: #000;
+  stroke-width: 2;
+  -webkit-animation: body 10s ease forwards, fill 1s 1.5s linear forwards;
+          animation: body 10s ease forwards, fill 1s 1.5s linear forwards;
+}
+
+#tongue {
+  stroke-dashoffset: 1517.6422119141;
+  stroke-dasharray: 1517.6422119141 1517.6422119141;
+  fill: transparent;
+  -webkit-animation: tongue 1s 1.5s linear forwards;
+          animation: tongue 1s 1.5s linear forwards;
+}
+
+@-webkit-keyframes body {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes body {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes fill {
+  to {
+    fill: #000;
+  }
+}
+@keyframes fill {
+  to {
+    fill: #000;
+  }
+}
+@-webkit-keyframes tongue {
+  to {
+    fill: #E60012;
+  }
+}
+@keyframes tongue {
+  to {
+    fill: #E60012;
+  }
+}
+@media all and (max-height: 500px) and (max-width: 2000px) {
+  .boo {
+    width: 20%;
+  }
+}
+@media all and (max-width: 600px) {
+  .boo {
+    width: 50%;
+  }
+}

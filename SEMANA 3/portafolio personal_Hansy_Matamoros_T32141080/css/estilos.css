@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'RobotoVerdana, Geneva, sans-serif';
+    background-color: #0E394A;
+    color: #DED7C9;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navegacion-principal{
+    margin: 0;
+    padding: 0 ;
+}
+
+.navegacion-principal ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3FA1A5;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.navegacion-principal li{
+    display: inline;
+    float: left;
+}
+
+.navegacion-principal a{
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+   
+.navegacion-principal a:hover{
+    background-color: #0E394A;
+}
+
+.sin-padding{
+    padding: 0 !important;
+}
+
+.navegacion-movado {
+    height: 65px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    width: middle;
+}
+
+.destacado {
+    background-color: 0E394A;
+    
+}
+
+.texto-blanco{
+    color: white !important;
+}
+
+.float-right{
+    float: right !important;
+}
+
+
+.imagen-redonda{
+    border-radius: 100%;
+}
+
+.imagen-perfil{
+    width: 256px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.inicio{
+    background-image: url;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px
+}
+
+.titulo{
+    color: white;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.biografia{
+    border-radius: 25px;
+    font-size: 30px;
+    
+    color: white;
+    padding: 10px;
+    width: 300px;
+    margin: 25px auto 0 auto;
+}
+
+
+
+
+
+
+    
+    
+
+
+    
+    
